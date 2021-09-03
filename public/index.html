@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tower defender</title>
+  </head>
+  <body>
+    <div class="controls-wrapper">
+      <ul id="events"></ul>
+      <div class="chat-wrapper">
+        <form id="chat-form">
+          <input id="chat" autocomplate="off" title="chat" />
+          <button id="say">GAME START</button>
+        </form>
+      </div>
+      <div class="wrapper">
+        <canvas id="canvas1"></canvas>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="src/index.js"></script>
+    <!-- <script src="src/components/defender.js"></script>
+    <script src="src/components/enemy.js"></script>
+    <script src="src/components/resource.js"></script>
+    <script src="src/components/utilities.js"></script> -->
+  </body>
+</html>
